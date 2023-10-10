@@ -1,9 +1,10 @@
-
+import './Main.css'
+import Menu from '../../components/Menu/Menu'
 
 function Main() {
     return (
-        <section className="Main">
-            
+        <section className="main">
+            <Menu />
         </section>
     )
 }

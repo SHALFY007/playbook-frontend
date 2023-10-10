@@ -15,6 +15,15 @@ body {
   box-sizing: border-box;
 }
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background: #DDDEE5;
+  height: 1px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -32,4 +41,9 @@ button {
 @font-face {
   font-family: 'Manrope-m';
   src: url('../public/fonts/Manrope-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Manrope-sb';
+  src: url('../public/fonts/Manrope-SemiBold.ttf');
 }
