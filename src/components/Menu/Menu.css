@@ -35,6 +35,10 @@
     background: #FFF;
 }
 
+.nav_btn:hover {
+    background: #F6F6F7;
+}
+
 .nav_open_btn {
     display: flex;
     width: 100%;
